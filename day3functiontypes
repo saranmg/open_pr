@@ -1,0 +1,42 @@
+/* function types
+
+1. function statement declaration - parameter and argument
+
+*/
+
+function box1 (hi){
+    console.log(hi);
+}
+box1("hello")
+
+//2. type
+
+let str = function box2 (js) {
+    console.log(js) 
+}
+str("hello java script");
+
+// anony type
+
+let ano = function (jj) {
+    console.log(jj);
+    
+}
+ano("function");
+
+// 3, type
+
+(function(iife){
+    console.log(iife);
+    
+})
+("expression");
+
+
+// arrow function important
+//syntax
+// ()=>{}
+
+let aro = (pro)=>{console.log(pro);
+}
+aro("arrow function")

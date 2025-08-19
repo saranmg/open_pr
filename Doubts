@@ -1,0 +1,14 @@
+/* in object when I add 0 as first element it is throwing error
+
+phone number : 044-8907637 -- got solution - use string when special charcters are used
+
+how to run multiple request in single syntax and why it gives only the model value and not the brand value during output
+
+*/
+
+let car ={
+    brand : "ford",
+    model : "zys",
+    year : 2010
+}
+console.log(car["brand"]);
